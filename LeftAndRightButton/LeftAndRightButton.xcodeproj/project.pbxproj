@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5D6E8B18C8E4F6293366A0 /* libPods-LeftAndRightButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B1F1A2B7631FA153063954 /* libPods-LeftAndRightButton.a */; };
+		E0E745C71E5E885D0030A821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E745C61E5E885D0030A821 /* main.m */; };
+		E0E745CA1E5E885D0030A821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E745C91E5E885D0030A821 /* AppDelegate.m */; };
+		E0E745CD1E5E885D0030A821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E745CC1E5E885D0030A821 /* ViewController.m */; };
+		E0E745D01E5E885D0030A821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E745CE1E5E885D0030A821 /* Main.storyboard */; };
+		E0E745D21E5E885D0030A821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E745D11E5E885D0030A821 /* Assets.xcassets */; };
+		E0E745D51E5E885D0030A821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E745D31E5E885D0030A821 /* LaunchScreen.storyboard */; };
+		E0E745DF1E5E8A3A0030A821 /* LeftAndRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E745DE1E5E8A3A0030A821 /* LeftAndRightView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82B1F1A2B7631FA153063954 /* libPods-LeftAndRightButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeftAndRightButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ED7590FD3B6AA60CFDC7D2 /* Pods-LeftAndRightButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeftAndRightButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeftAndRightButton/Pods-LeftAndRightButton.release.xcconfig"; sourceTree = "<group>"; };
+		8E974AD6E71D088F26D57E2E /* Pods-LeftAndRightButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeftAndRightButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeftAndRightButton/Pods-LeftAndRightButton.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E745C21E5E885D0030A821 /* LeftAndRightButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftAndRightButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E745C61E5E885D0030A821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E745C81E5E885D0030A821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E745C91E5E885D0030A821 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E745CB1E5E885D0030A821 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0E745CC1E5E885D0030A821 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E745CF1E5E885D0030A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E745D11E5E885D0030A821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E745D41E5E885D0030A821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E745D61E5E885D0030A821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E745DD1E5E8A3A0030A821 /* LeftAndRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAndRightView.h; sourceTree = "<group>"; };
+		E0E745DE1E5E8A3A0030A821 /* LeftAndRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAndRightView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E745BF1E5E885D0030A821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5D6E8B18C8E4F6293366A0 /* libPods-LeftAndRightButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2C36D9B9E1AF633A8F43802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B1F1A2B7631FA153063954 /* libPods-LeftAndRightButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E745B91E5E885D0030A821 = {
+			isa = PBXGroup;
+			children = (
+				E0E745C41E5E885D0030A821 /* LeftAndRightButton */,
+				E0E745C31E5E885D0030A821 /* Products */,
+				F91F7AD1658110B0ED98733B /* Pods */,
+				C2C36D9B9E1AF633A8F43802 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E745C31E5E885D0030A821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E745C21E5E885D0030A821 /* LeftAndRightButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E745C41E5E885D0030A821 /* LeftAndRightButton */ = {
+			isa = PBXGroup;
+			children = (
+				E0E745DC1E5E8A3A0030A821 /* LeftAndRightView */,
+				E0E745C81E5E885D0030A821 /* AppDelegate.h */,
+				E0E745C91E5E885D0030A821 /* AppDelegate.m */,
+				E0E745CB1E5E885D0030A821 /* ViewController.h */,
+				E0E745CC1E5E885D0030A821 /* ViewController.m */,
+				E0E745CE1E5E885D0030A821 /* Main.storyboard */,
+				E0E745D11E5E885D0030A821 /* Assets.xcassets */,
+				E0E745D31E5E885D0030A821 /* LaunchScreen.storyboard */,
+				E0E745D61E5E885D0030A821 /* Info.plist */,
+				E0E745C51E5E885D0030A821 /* Supporting Files */,
+			);
+			path = LeftAndRightButton;
+			sourceTree = "<group>";
+		};
+		E0E745C51E5E885D0030A821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E745C61E5E885D0030A821 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E745DC1E5E8A3A0030A821 /* LeftAndRightView */ = {
+			isa = PBXGroup;
+			children = (
+				E0E745DD1E5E8A3A0030A821 /* LeftAndRightView.h */,
+				E0E745DE1E5E8A3A0030A821 /* LeftAndRightView.m */,
+			);
+			path = LeftAndRightView;
+			sourceTree = "<group>";
+		};
+		F91F7AD1658110B0ED98733B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E974AD6E71D088F26D57E2E /* Pods-LeftAndRightButton.debug.xcconfig */,
+				83ED7590FD3B6AA60CFDC7D2 /* Pods-LeftAndRightButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E745C11E5E885D0030A821 /* LeftAndRightButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E745D91E5E885D0030A821 /* Build configuration list for PBXNativeTarget "LeftAndRightButton" */;
+			buildPhases = (
+				E9FCE35FD8157A80F73926FF /* [CP] Check Pods Manifest.lock */,
+				E0E745BE1E5E885D0030A821 /* Sources */,
+				E0E745BF1E5E885D0030A821 /* Frameworks */,
+				E0E745C01E5E885D0030A821 /* Resources */,
+				4DC38043633D6EFFDD771308 /* [CP] Embed Pods Frameworks */,
+				A4D99DE7C15376FC9398E178 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftAndRightButton;
+			productName = LeftAndRightButton;
+			productReference = E0E745C21E5E885D0030A821 /* LeftAndRightButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E745BA1E5E885D0030A821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dengzhiping;
+				TargetAttributes = {
+					E0E745C11E5E885D0030A821 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E0E745BD1E5E885D0030A821 /* Build configuration list for PBXProject "LeftAndRightButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E745B91E5E885D0030A821;
+			productRefGroup = E0E745C31E5E885D0030A821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E745C11E5E885D0030A821 /* LeftAndRightButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E745C01E5E885D0030A821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E745D51E5E885D0030A821 /* LaunchScreen.storyboard in Resources */,
+				E0E745D21E5E885D0030A821 /* Assets.xcassets in Resources */,
+				E0E745D01E5E885D0030A821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DC38043633D6EFFDD771308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeftAndRightButton/Pods-LeftAndRightButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D99DE7C15376FC9398E178 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeftAndRightButton/Pods-LeftAndRightButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FCE35FD8157A80F73926FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E745BE1E5E885D0030A821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E745DF1E5E8A3A0030A821 /* LeftAndRightView.m in Sources */,
+				E0E745CD1E5E885D0030A821 /* ViewController.m in Sources */,
+				E0E745CA1E5E885D0030A821 /* AppDelegate.m in Sources */,
+				E0E745C71E5E885D0030A821 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0E745CE1E5E885D0030A821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E745CF1E5E885D0030A821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E745D31E5E885D0030A821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E745D41E5E885D0030A821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E745D71E5E885D0030A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E745D81E5E885D0030A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E745DA1E5E885D0030A821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E974AD6E71D088F26D57E2E /* Pods-LeftAndRightButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftAndRightButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szwl.LeftAndRightButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0E745DB1E5E885D0030A821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83ED7590FD3B6AA60CFDC7D2 /* Pods-LeftAndRightButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftAndRightButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = szwl.LeftAndRightButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E745BD1E5E885D0030A821 /* Build configuration list for PBXProject "LeftAndRightButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E745D71E5E885D0030A821 /* Debug */,
+				E0E745D81E5E885D0030A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E745D91E5E885D0030A821 /* Build configuration list for PBXNativeTarget "LeftAndRightButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E745DA1E5E885D0030A821 /* Debug */,
+				E0E745DB1E5E885D0030A821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E745BA1E5E885D0030A821 /* Project object */;
+}
